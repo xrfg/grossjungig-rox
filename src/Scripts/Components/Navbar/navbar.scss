@@ -30,5 +30,13 @@
   }
 
   &__link {
+    transition: all 0.2s;
+    &:hover {
+      color: $website-green;
+    }
+  }
+
+  &__active-link {
+    color: $website-green;
   }
 }

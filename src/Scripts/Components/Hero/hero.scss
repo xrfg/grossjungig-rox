@@ -1,6 +1,9 @@
+// utilities
+@import "../../../Utilities/variables";
+
 .heroContainer {
   // img from Unsplash
-  background-image: url("../../../Assets/Images/hero-img.jpg");
+  background-image: url("../../../Assets/Images/hero-img2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -14,21 +17,26 @@
 
 .hero {
   &__header {
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 2rem;
+
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 2px black;
   }
   &__header-btn {
     padding: 1.2rem 1.4rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    background-color: $website-gray;
     font-size: 1.8rem;
     border: none;
     border-radius: 8px;
     outline: none;
     transition: all 0.1s;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 2px 2px 3px 0px rgb(37, 37, 37);
     &:hover {
-      background-color: yellow;
+      background-color: $website-green;
+
       cursor: pointer;
       transform: scale(1.03);
     }
@@ -38,10 +46,7 @@
 @media (max-width: 700px) {
   .hero {
     &__header {
-      font-size: 1.8rem;
-    }
-    &__header-btn {
-      font-size: 1.6rem;
+      font-size: 2rem;
     }
   }
 }
