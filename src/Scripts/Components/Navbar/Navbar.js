@@ -1,8 +1,8 @@
-// React imports
+// * React imports
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-// Stylesheet import
+// * Stylesheet import
 import "./navbar.scss";
 
 export default function Navbar() {

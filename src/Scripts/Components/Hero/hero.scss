@@ -1,4 +1,4 @@
-// utilities
+// * utilities
 @import "../../../Utilities/variables";
 
 .heroContainer {
@@ -33,7 +33,7 @@
     border-radius: 8px;
     outline: none;
     transition: all 0.1s;
-    box-shadow: 2px 2px 3px 0px rgb(37, 37, 37);
+    box-shadow: 2px 2px 3px 0px black;
     &:hover {
       background-color: $website-green;
 
