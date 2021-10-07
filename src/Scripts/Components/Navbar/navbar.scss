@@ -1,0 +1,31 @@
+.navbarContainer {
+  background-color: rgba(183, 0, 255, 0.603);
+  padding: 2rem;
+  width: 100vw;
+  position: fixed; // takes space absolutely
+  top: 0;
+}
+.navbar {
+  min-width: 30rem;
+  max-width: 120rem;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & > ul {
+    list-style-type: none;
+    & > li {
+      display: inline; // make it an horizontal list
+      margin-right: 2rem;
+      &:last-child {
+        margin-right: 0rem;
+      }
+    }
+  }
+
+  &__link {
+    color: yellow;
+  }
+}
