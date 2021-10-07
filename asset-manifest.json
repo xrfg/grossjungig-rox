@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.e0e22ea3.chunk.css",
+    "main.js": "./static/js/main.1bda6786.chunk.js",
+    "main.js.map": "./static/js/main.1bda6786.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.22beb355.js",
+    "runtime-main.js.map": "./static/js/runtime-main.22beb355.js.map",
+    "static/js/2.ee959ca2.chunk.js": "./static/js/2.ee959ca2.chunk.js",
+    "static/js/2.ee959ca2.chunk.js.map": "./static/js/2.ee959ca2.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.e0e22ea3.chunk.css.map": "./static/css/main.e0e22ea3.chunk.css.map",
+    "static/js/2.ee959ca2.chunk.js.LICENSE.txt": "./static/js/2.ee959ca2.chunk.js.LICENSE.txt",
+    "static/media/hero.scss": "./static/media/hero-img2.e184655b.jpg",
+    "static/media/linkedin-logo.9a1a7f81.png": "./static/media/linkedin-logo.9a1a7f81.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22beb355.js",
+    "static/js/2.ee959ca2.chunk.js",
+    "static/css/main.e0e22ea3.chunk.css",
+    "static/js/main.1bda6786.chunk.js"
+  ]
+}
