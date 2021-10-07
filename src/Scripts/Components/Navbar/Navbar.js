@@ -10,7 +10,7 @@ export default function Navbar() {
     <div className="navbarContainer">
       <nav className="navbar">
         <NavLink activeClassName="navbar__active-link" exact to="/">
-          <h1>💻 Rox Martins</h1>
+          <h1 className="navbar__heading">💻 Rox Martins</h1>
         </NavLink>
         <ul>
           <li>
