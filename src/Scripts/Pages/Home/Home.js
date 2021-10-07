@@ -6,12 +6,17 @@ import "./home.scss";
 
 // * Component imports
 import Hero from "../../Components/Hero/Hero";
+import BlockText from "../../Components/BlockText/BlockText";
 
 export default function Home() {
   return (
-    <div className="page">
+    <div>
       <Hero />
-      im home
+      <div className="page">
+        <div className="container">
+          <BlockText />
+        </div>
+      </div>
     </div>
   );
 }

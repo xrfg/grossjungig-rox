@@ -28,7 +28,7 @@ export default function Navbar() {
               activeClassName="navbar__active-link"
               className="navbar__link"
               exact
-              to="/contacts"
+              to="/contact"
             >
               📝 Contact
             </NavLink>

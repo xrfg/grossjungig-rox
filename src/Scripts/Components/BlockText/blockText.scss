@@ -1,0 +1,17 @@
+// utilities
+@import "../../../Utilities/variables";
+
+.blockText {
+  background-color: $website-blue;
+  padding: 2.4rem 2rem;
+  transform: translateY(-4rem);
+  border-radius: 8px;
+  color: white;
+  width: 84%;
+  margin: 0 auto;
+  &__text {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    text-align: center;
+  }
+}

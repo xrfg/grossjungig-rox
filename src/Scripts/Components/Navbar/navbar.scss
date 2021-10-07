@@ -1,5 +1,9 @@
+// utilities
+@import "../../../Utilities/variables";
+
 .navbarContainer {
-  background-color: rgba(183, 0, 255, 0.603);
+  background-color: $website-blue;
+  box-shadow: 0px 3px 10px 1px rgb(37, 37, 37);
   padding: 2rem;
   width: 100vw;
   position: fixed; // takes space absolutely
@@ -9,7 +13,7 @@
   min-width: 30rem;
   max-width: 120rem;
   margin: 0 auto;
-
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,6 +30,5 @@
   }
 
   &__link {
-    color: yellow;
   }
 }

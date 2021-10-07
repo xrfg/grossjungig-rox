@@ -1,0 +1,47 @@
+.heroContainer {
+  // img from Unsplash
+  background-image: url("../../../Assets/Images/hero-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(122, 122, 122);
+  height: 40rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  &__header {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+  }
+  &__header-btn {
+    padding: 1.2rem 1.4rem;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.1s;
+    box-shadow: 1px 1px 1px black;
+    &:hover {
+      background-color: yellow;
+      cursor: pointer;
+      transform: scale(1.03);
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .hero {
+    &__header {
+      font-size: 1.8rem;
+    }
+    &__header-btn {
+      font-size: 1.6rem;
+    }
+  }
+}
